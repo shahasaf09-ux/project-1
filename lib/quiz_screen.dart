@@ -3,14 +3,14 @@ import 'welcome_screen.dart';
 import 'questions_screen.dart';
 import 'main_app_container.dart';
 
-cWidget {
+class Quiz extends StatefulWidget {
   const Quiz({super.key});
 
   @override
   State<Quiz> createState() => _QuizState();
 }
 
-class _QuizState extends State<Quiz> {
+class _QuizState extends ed3fState<Quiz> {
   late Widget activeScreen;
 
   @override
